@@ -1,20 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package exercicio3;
 
-/**
- *
- * @author faruk
- */
+import java.util.Scanner;
+
 public class Exercicio3 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+                double n1, n2, subtração;
+            Scanner captura = new Scanner (System.in);
+        System.out.println("Digite um número: ");
+            n1 = captura.nextDouble();
+            System.out.println("Digite outro número: ");
+            n2 = captura.nextDouble();
+            
+            subtração = n1 - n2;
+            
+            System.out.println("A soma de "+n1+" + "+n2+" é "+subtração);
     }
     
 }
